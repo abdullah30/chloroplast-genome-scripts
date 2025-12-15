@@ -10,7 +10,7 @@ A comprehensive Python toolkit for chloroplast genome analysis with 7 specialize
 
 ---
 
-## ?? Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Quick Start](#-quick-start)
@@ -25,9 +25,9 @@ A comprehensive Python toolkit for chloroplast genome analysis with 7 specialize
 
 ---
 
-## ?? Features
+## Features
 
-? **7 Analysis Modes** - Gene content, codon usage, amino acids, SNPs, introns, comprehensive data about genome regions and their GC content along with GC content of different genes, gene tables  
+? **7 Analysis Modes** - Gene content, codon usage, amino acids, SNPs, introns, comprehensive data about genome regions and their GC content, along with GC content of different genes, gene tables  
 ? **Flexible Usage** - Unified script, module imports, individual scripts, Jupyter notebooks  
 ? **Publication-Ready** - Formatted Excel and Word outputs  
 ? **Smart Handling** - Correctly handles trans-spliced genes (rps12)  
@@ -36,7 +36,7 @@ A comprehensive Python toolkit for chloroplast genome analysis with 7 specialize
 
 ---
 
-## ? Quick Start
+## Quick Start
 
 ```bash
 # 1. Install dependencies
@@ -52,7 +52,7 @@ python chloroplast_unified_analysis.py
 
 ---
 
-## ?? Installation
+## Installation
 
 ### Windows
 ```cmd
@@ -72,9 +72,9 @@ pip install python-docx
 
 ---
 
-## ?? Usage Methods
+## Usage Methods
 
-### Method 1: Unified Script (Easiest) ?
+### Method 1: Unified Script (Easiest)
 
 **Best for:** Running all analyses at once
 
@@ -201,10 +201,10 @@ done
 
 | Mode | Name | Input | Output | Description |
 |------|------|-------|--------|-------------|
-| **1** | Gene Content | *.gb | Excel | Counts genes, identifies duplications |
-| **2** | Gene Tables | *.gb | Word | Publication-ready tables |
-| **3** | IR Boundaries | *.gb | Excel | Inverted repeat analysis |
-| **4** | Codon Usage | *.gb | Excel | Codon frequency calculation |
+| **1** | Gene Content | *.gb | Excel | Counts genes, identifies duplications, identifies unique genes, gives gene count for each species |
+| **2** | Gene Tables | *.gb | Word | Publication-ready tables which show each category of gene |
+| **3** | IR Boundaries | *.gb | Excel | Inverted repeat, LSC, and SSC analysis, GC content of all regions, GC content of functional genes |
+| **4** | Codon Usage | *.gb | Excel | Codon frequency calculation in term of Relative synonymous codon usage |
 | **5** | Amino Acids | *.gb | Excel | Amino acid composition |
 | **6** | SNP Analysis | *.fasta | Excel | SNP detection, Ts/Tv ratios |
 | **7** | Intron Analysis | *.gb | Excel | Intron positions/lengths |
@@ -229,7 +229,7 @@ All outputs are timestamped:
 
 ---
 
-## ?? Examples
+## Examples
 
 ### Example 1: Complete Analysis
 
@@ -281,7 +281,7 @@ done
 
 ---
 
-## ?? Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -306,20 +306,11 @@ chmod +x chloroplast_unified_analysis.py
 python3 chloroplast_unified_analysis.py
 ```
 
-### Get Help
-
-1. Check documentation guides (see below)
-2. Run test: `python test_rps12.py`
-3. Verify Python: `python --version` (need 3.7+)
-4. Check packages: `pip list | grep biopython`
-
----
-
 ## ?? Documentation
 
 ### Complete Guides
 
-- **Jupyter usage, widgets, visualization)** - 
+- **Jupyter usage, widgets, visualization** - 
 - **LINUX_GUIDE** - Linux installation, virtual env, bash scripts
 - **MODULE_GUIDE**- Module API, programmatic usage
 - **INDIVIDUAL_SCRIPTS_README** - Individual script details
@@ -328,13 +319,13 @@ python3 chloroplast_unified_analysis.py
 
 ---
 
-## ?? Citation
+## Citation
 
 If you use this software in your research, please cite:
 
 ```
 Abdullah. (2025). Chloroplast Genome Analysis Suite (Version 1.0). 
-GitHub: https://github.com/yourusername/chloroplast-analyzer
+GitHub: https://github.com/abdullah30/chloroplast-genome-scripts
 ```
 
 **BibTeX:**
@@ -344,13 +335,13 @@ GitHub: https://github.com/yourusername/chloroplast-analyzer
   title = {Chloroplast Genome Analysis Suite},
   year = {2025},
   version = {1.0},
-  url = {https://github.com/yourusername/chloroplast-analyzer}
+  url = {https://github.com/abdullah30/chloroplast-genome-scripts}
 }
 ```
 
 ---
 
-## ?? Acknowledgments
+## Acknowledgments
 
 Built with:
 - **Biopython** - Sequence analysis
@@ -361,7 +352,7 @@ Built with:
 
 ---
 
-## ?? License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
@@ -370,7 +361,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## ? Quick Command Reference
+##  Quick Command Reference
 
 ```bash
 # Install
@@ -394,7 +385,7 @@ ls -lh *.xlsx *.docx
 
 ---
 
-## ??? Requirements
+## Requirements
 
 **System:** Python 3.7+  
 **Packages:** biopython, pandas, openpyxl, numpy, python-docx  
@@ -408,15 +399,14 @@ pip install -r requirements.txt
 
 ---
 
-## ?? Contact
+## Contact
 
 **Author:** Abdullah  
-**GitHub:** [yourusername/chloroplast-analyzer](https://github.com/yourusername/chloroplast-analyzer)  
-**Issues:** [GitHub Issues](https://github.com/yourusername/chloroplast-analyzer/issues)
+**GitHub:** [abdullah30/chloroplast-genome-scripts](https://github.com/abdullah30/chloroplast-genome-scripts)
 
 ---
 
-## ?? Contributing
+## Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
@@ -425,13 +415,13 @@ Contributions welcome! Please:
 
 ---
 
-## ?? Star This Repository
+## Star This Repository
 
-If you find this useful, please star ? the repository!
+If you find this useful, please star the repository!
 
 ---
 
-**Made with ?? for the chloroplast genomics community**
+**Made with for the chloroplast genomics community**
 
 **Version 1.0** | **MIT License** | **Python 3.7+**
 
