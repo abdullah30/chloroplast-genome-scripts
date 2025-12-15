@@ -27,12 +27,12 @@ A comprehensive Python toolkit for chloroplast genome analysis with 7 specialize
 
 ## Features
 
-? **7 Analysis Modes** - Gene content, codon usage, amino acids, SNPs, introns, comprehensive data about genome regions and their GC content, along with GC content of different genes, gene tables  
-? **Flexible Usage** - Unified script, module imports, individual scripts, Jupyter notebooks  
-? **Publication-Ready** - Formatted Excel and Word outputs  
-? **Smart Handling** - Correctly handles trans-spliced genes (rps12)  
-? **Cross-Platform** - Windows, Linux, macOS  
-? **Well-Documented** - Comprehensive guides included
+**7 Analysis Modes** - Gene content, codon usage, amino acids, SNPs, introns, comprehensive data about genome regions and their GC content, along with GC content of different genes, gene tables  
+**Flexible Usage** - Unified script, module imports, individual scripts, Jupyter notebooks  
+**Publication-Ready** - Formatted Excel and Word outputs  
+**Smart Handling** - Correctly handles trans-spliced genes (rps12)  
+**Cross-Platform** - Windows, Linux, macOS  
+**Well-Documented** - Comprehensive guides included
 
 ---
 
@@ -197,7 +197,7 @@ done
 
 ---
 
-## ?? Analysis Modes
+##  Analysis Modes
 
 | Mode | Name | Input | Output | Description |
 |------|------|-------|--------|-------------|
@@ -306,7 +306,7 @@ chmod +x chloroplast_unified_analysis.py
 python3 chloroplast_unified_analysis.py
 ```
 
-## ?? Documentation
+##  Documentation
 
 ### Complete Guides
 
